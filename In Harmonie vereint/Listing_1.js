@@ -1,0 +1,1 @@
+var arr = ['a', 'b', 'b', 'c'];function findFunc(el, ind, ar) {  if (el === 'b') {    return true;  }  return false;};var el = arr.find(findFunc);

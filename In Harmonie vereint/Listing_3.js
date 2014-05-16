@@ -1,0 +1,1 @@
+var promise = new Promise(function(resolve, reject) {  setTimeout(function() {    resolve('Hallo Klaus');  }, 1000);});promise.then(function(data) {  console.log(data);});
