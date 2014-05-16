@@ -1,0 +1,1 @@
+Minimalistisches Beispiel für einen HHVM basierten WebserverPidFile = /var/run/hhvm/pid Server { Port = 80 SourceRoot = /var/www/ htmlDefaultDocument = index.php } 

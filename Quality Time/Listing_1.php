@@ -1,0 +1,1 @@
+class Product {   private string $name;   private float $price;   public function setName(string $name) : void   {     $this->name = $name;   }   public function setPrice(float $price) : void   {     $this->price = $price;   }  // ... }

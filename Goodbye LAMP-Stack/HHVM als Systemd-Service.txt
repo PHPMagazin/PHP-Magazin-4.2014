@@ -1,0 +1,1 @@
+Beispiel für eine Konfigurstion als Systemd-Service[Unit] Description=HHVM RastCGI Service After=syslog.target network.target[Service] Type=simpleExecStart=/usr/bin/hhvm –user nginx --mode daemon -vServer.Type=fastcgi -vServer.FileSocket=/var/run/hhvm/sock StandardOutput=null [Install] WantedBy=multi-user.target 
